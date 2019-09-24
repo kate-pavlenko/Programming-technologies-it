@@ -9,3 +9,5 @@
 ![Screenshot](./screenshots/Screenshot_3.png)
 #### 7. Написала функцію для перевірки часу AM/PM, запустила її через термінал.
 ![Screenshot](./screenshots/Screenshot_4.png)
+#### 8. У файлі tests.py написала перевірку функції і за допомогою команди pytest запустила її. Перевірка успішна.
+![Screenshot](./screenshots/Screenshot_5.png)
