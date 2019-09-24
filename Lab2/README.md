@@ -5,3 +5,5 @@
 #### 4. Програма працює правильно
 ![Screenshot](./screenshots/Screenshot_2.png)
 #### 5. Встановила pytest і ознайомилась з документацією
+#### 6. Запустила тести, вони пройшли успішно
+![Screenshot](./screenshots/Screenshot_3.png)
