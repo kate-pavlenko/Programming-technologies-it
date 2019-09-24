@@ -2,3 +2,5 @@
 ![Screenshot](./screenshots/Screenshot_1.png)
 #### 2. Встановила бібліотеки requests і ntplib
 #### 3. Створила файл app.py і скопіювала код програми
+#### 4. Програма працює правильно
+![Screenshot](./screenshots/Screenshot_2.png)
