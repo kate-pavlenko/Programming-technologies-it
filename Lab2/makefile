@@ -5,8 +5,9 @@ all: install test run deploy
 install:
 	@echo "Installing pipenv and dependencies."
 	# Ваш код тут
-	@apt install python3.7
-	@apt install python-pip
+	@apt install -y python3.7
+	@apt install -y python-pip
+	@apt install -y python3-pip
 	@pip install pipenv
 	@pipenv --python 3.7
 	@pipenv install requests
@@ -27,5 +28,5 @@ deploy:
 	@echo "Adding and Committing results.txt to git."
 	# Ваш код тут
 	@git add results.txt
-	@git commit -m "Ayto push file"
+	@git commit -m "Auto push file"
 	@git push origin master
