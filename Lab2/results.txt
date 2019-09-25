@@ -1,16 +1,32 @@
-============================= test session starts =============================
-platform win32 -- Python 3.7.4, pytest-5.1.3, py-1.8.0, pluggy-0.13.0
-rootdir: C:\Users\Winterfell's Queen\IdeaProjects\Programming-technologies-it\Lab2
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-5.1.3, py-1.8.0, pluggy-0.13.0
+rootdir: /home/kate/Programming-technologies-it/Lab2
 collected 6 items
 
-tests.py ......                                                          [100%]
+tests.py .....F                                                          [100%]
 
-============================== 6 passed in 0.56s ==============================
+=================================== FAILURES ===================================
+______________________ TestClass.test_no_date_in_response ______________________
+
+self = <tests.TestClass testMethod=test_no_date_in_response>
+
+    def test_no_date_in_response(self):
+        # Перевіряємо що у відповіді відсутнє поле дата (тобто передана направильна URL)
+        with self.assertRaises(Exception):
+>           main(self.ip_url)
+E           AssertionError: Exception not raised
+
+tests.py:26: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Time is:  09:06:58 AM
+Good morning c: 
+Date is:  2019-09-25
+========================= 1 failed, 5 passed in 2.12s ==========================
 ========================================
-��������� ��� ���������: 
+Результат без параметрів: 
 No URL passed to function
 ========================================
-��������� � ���������� URL: 
-Time is:  05:06:31 PM
-Good evening c: 
-Date is:  09-24-2019
+Результат з правильною URL: 
+Time is:  09:07:00 AM
+Good morning c: 
+Date is:  2019-09-25
