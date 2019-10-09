@@ -4,3 +4,4 @@
 #### 3. Запустила django server, створила фалй .gitignore і вказала що потрібно ігнорувати файл db.sqlite3
 ![Screenshot](./img/Screenshot_2.png)
 #### 4. Створила template додатку
+#### 5. Створила папку templates, main.html з початковим кодом та urls.py
