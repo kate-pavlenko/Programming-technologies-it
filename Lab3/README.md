@@ -5,4 +5,5 @@
 ![Screenshot](./img/Screenshot_2.png)
 #### 4. Створила template додатку
 #### 5. Створила папку templates, main.html з початковим кодом та urls.py
-#### 6. Відредагувала файли settings.py and urls.py
+#### 6. Відредагувала файли settings.py and my_site/urls.py
+#### 7. Поєднала функції з реальними url шляхами
