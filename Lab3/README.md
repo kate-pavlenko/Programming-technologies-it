@@ -10,3 +10,5 @@
 #### 8. Запустила сервер
 ![Screenshot](./img/Screenshot_3.png)
 ![Screenshot](./img/Screenshot_4.png)
+#### 9.Встановила requests
+![Screenshot](./img/Screenshot_5.png)
