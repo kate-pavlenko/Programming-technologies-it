@@ -7,3 +7,6 @@
 #### 5. Створила папку templates, main.html з початковим кодом та urls.py
 #### 6. Відредагувала файли settings.py and my_site/urls.py
 #### 7. Поєднала функції з реальними url шляхами
+#### 8. Запустила сервер
+![Screenshot](./img/Screenshot_3.png)
+![Screenshot](./img/Screenshot_4.png)
