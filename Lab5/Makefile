@@ -1,5 +1,5 @@
 STATES := app tests
-REPO := bobas/lab4-examples
+REPO := katepavlenko/lab5
 
 .PHONY: $(STATES)
 
