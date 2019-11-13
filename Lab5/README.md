@@ -20,3 +20,4 @@
 ![Screenshot](./pictures/screenshot3.png)
 
 ![Screenshot](./pictures/screenshot4.png)
+##### 5. Зупинила проект, почистила ресурси Docker за допомогою make docker-prune. Створила директиви docker-push & docker-del для створення імеджів в репозиторії докерхаба і видалення їх. Використала ці команди.

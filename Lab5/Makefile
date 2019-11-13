@@ -22,3 +22,9 @@ docker-prune:
 	&& docker image prune --force
 
 
+docker-push:
+	@docker push $(REPO):app
+	@docker push $(REPO):tests
+
+docker-del:
+	@docker image prune -a --force
