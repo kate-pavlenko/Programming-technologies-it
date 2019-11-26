@@ -30,11 +30,11 @@ def main(url):
             logging.info("Запитувана сторінка: : %s", data['current_page'])
             logging.info("Інформація про сервер: : %s", data['server_info'])
             logging.info("Інформація про користувача: : %s", data['client_info'])
-
+'''
     while True:
         time.sleep(60)
         runminute()
-'''
+
     logging.info("Відповідь сервера місти наступні поля:")
     for key in data.keys():
         logging.info("Ключ: %s, Значення: %s", key, data[key])
